@@ -24,7 +24,7 @@ function generatePassword(){
         }
 
      var LowercaseOption = confirm("Would you like to include lowercase characters?");
-        if (LowercaseOption){
+        if (LowercaseOption) {
             passwordText += LowercaseAlphabet;
         }
      var UppercaseOption = confrim("Would you like to include Uppercase characters?");
@@ -40,8 +40,8 @@ function generatePassword(){
             passwordText += Numbers;
         }
         
-        for (var i = 0; i < passwordLengthUser; i++) {
-            password = passwordChar[Math.floor(Math.random() * passwordChar.length)]
+        for (var i = 0; i < passwordLength; i++) {
+            password = passwordText[Math.floor(Math.random() * passwordText.length)]
         }
     }
 
