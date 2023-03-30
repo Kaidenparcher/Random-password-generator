@@ -26,10 +26,11 @@ function generatePassword(){
      var LowercaseOption = confirm("Would you like to include lowercase characters?");
         if (LowercaseOption) {
             passwordText += LowercaseAlphabet;
+        
         }
-     var UppercaseOption = confrim("Would you like to include Uppercase characters?");
-        if (UppercaseOption){
-            passwordText += UppercaseAlphabet;
+        var UppercaseOption = confirm("Would you like to include Uppercase characters?");
+            if (UppercaseOption){
+                passwordText += UppercaseAlphabet;
         }
     var SpecialOption = confrim("Would you like to include Special characters?");
         if (SpecialOption){
@@ -45,7 +46,7 @@ function generatePassword(){
         }
     }
 
-    
+
 // Write password to the #password input
 function writePassword() {
     var password = generatePassword();
