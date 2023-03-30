@@ -32,7 +32,7 @@ function generatePassword(){
             if (UppercaseOption){
                 passwordText += UppercaseAlphabet;
         }
-    var SpecialOption = confrim("Would you like to include Special characters?");
+    var SpecialOption = confirm("Would you like to include Special characters?");
         if (SpecialOption){
             passwordText += SpecialChar;
         }
