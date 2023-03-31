@@ -27,22 +27,25 @@ The only install that you will need if a basic web browser.
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+This Application is used by first clicking then red button labeled "Generate Password" 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+The user then will be prompted to choose the overall length of characters that makes up their random password. Input must remain within 8-128 characters. If not, an alert will pop up like this:
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+![alt text](images/Lengthcritera.png)
 
+Then there will be a series of pop up confirms to determine what other character sets the user would like to use. If none of the character options are chose, there will be an alert that looks like this
 
-## Credits
+![alt text](images/Choosecriteria.png)
 
-List your collaborators, if any, with links to their GitHub profiles.
+Here is an example of what a final password would look like if the user chose 20 characters and opted-in to all of the characters
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+![alt text](images/Finalproduct.png)
 
-If you followed tutorials, include links to those here as well.
+Here is a snippet of code that I wrote for this project. This top half of this code is the alert that requires the user to choose at least one of the character sets.
+
+![alt text](images/Random.png)
+
+Secondly is the function to randomly choose the output based on the overall password length.
 
 
 ## License
