@@ -8,7 +8,8 @@ The user first has the option to choose the overall length of characters that ma
 
 I learned to combine inputs of different variables and produce a random output based on the inputs. I will be able to build on these skills and help people secure their private information.
 
-
+Here is the Link to my deployed application
+https://kaidenparcher.github.io/Random-password-generator/
 
 ## Table of Contents (Optional)
 
@@ -33,7 +34,7 @@ The user then will be prompted to choose the overall length of characters that m
 
 Then there will be a series of pop up confirms to determine what other character sets the user would like to use. If none of the character options are chose, there will be an alert that looks like this
 
-![alt text](images/Choosecriteria.png)
+![alt text](images/Choosecritera.png)
 
 Here is an example of what a final password would look like if the user chose 20 characters and opted-in to all of the characters
 
