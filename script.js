@@ -23,6 +23,7 @@ function generatePassword() {
 
     // creates user prompt to select password length
     var passwordLength = prompt("Choose how many characters you want your password to be! Password must be between 8-128 characters.");
+    //  Converts the string input to integers 
 
     //  Creates password min and max lengeths for total password
     if (passwordLength < 8) {
@@ -37,28 +38,28 @@ function generatePassword() {
     // Create confrim window for lowercase
     var LowercaseOption = confirm("Would you like to include lowercase characters?");
     if (LowercaseOption) {
-       userPassword.push(LowercaseAlphabet);
+       userPassword.push(...LowercaseAlphabet);
     }
     console.log("lowercase option",userPassword);
     
     // Create confrim window for Uppercase
     var UppercaseOption = confirm("Would you like to include Uppercase characters?");
     if (UppercaseOption) {
-       userPassword.push(UppercaseAlphabet);
+       userPassword.push(...UppercaseAlphabet);
     }
     console.log("uppercase option",userPassword);
     
     // Create confrim window for Special characters
     var SpecialOption = confirm("Would you like to include Special characters?");
     if (SpecialOption) {
-       userPassword.push(SpecialChar);
+       userPassword.push(...SpecialChar);
     }
     console.log("special option",userPassword);
     
     // Create confrim window for numbers
     var NumbersOption = confirm("Would you like to include Special characters?");
     if (NumbersOption) {
-       userPassword.push(Numbers);
+       userPassword.push(...Numbers);
     }
     console.log("number option",userPassword);
     
