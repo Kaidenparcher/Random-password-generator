@@ -73,7 +73,7 @@ function generatePassword() {
         finalPassword.push(userPassword[Math.floor(Math.random() * userPassword.length)])
         console.log('final password', finalPassword)
     }
-
+    // Return final output to be posted on page
     return finalPassword;
 }
 
