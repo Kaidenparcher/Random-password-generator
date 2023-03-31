@@ -74,7 +74,7 @@ function generatePassword() {
         console.log('final password', finalPassword)
     }
 
-    
+    return finalPassword;
 }
 
 // Add event listener to generate button
