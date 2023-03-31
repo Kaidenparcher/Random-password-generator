@@ -2,11 +2,7 @@
 
 ## Description 
 
-This project was designed to help people create strong passwords using a random system. To do this, I included all upper and lower case letters, along with numbers and special characters.
 
-The user first has the option to choose the overall length of characters that makes up their random password. Then the user will be prompted to choose to include the other character options. Finally the application will randomly generate a string of characters based on the user's preferred inputs.
-
-I learned to combine inputs of different variables and produce a random output based on the inputs. I will be able to build on these skills and help people secure their private information.
 
 
 
