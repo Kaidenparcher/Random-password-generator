@@ -27,7 +27,7 @@ function generatePassword() {
 
     //  Creates password min and max lengeths for total password
     if (passwordLength < 8) {
-        alert("Password must have at least 7 characters.");
+        alert("Password must have at least 8 characters.");
         return ""
     }
     if (passwordLength > 128) {
